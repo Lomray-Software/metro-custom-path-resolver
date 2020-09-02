@@ -1,0 +1,31 @@
+{
+  "name": "@lomray/metro-custom-path-resolver",
+  "version": "1.0.0",
+  "dependencies": {},
+  "description": "Metro bundler custom path resolver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewPattell/metro-custom-path-resolver.git"
+  },
+  "keywords": [
+    "metro",
+    "resolver",
+    "custom",
+    "path",
+    "files",
+    "js",
+    "jpg",
+    "png",
+    "replace"
+  ],
+  "author": "Yarmaliuk Mikhail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewPattell/metro-custom-path-resolver/issues"
+  },
+  "homepage": "https://github.com/MatthewPattell/metro-custom-path-resolver#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
