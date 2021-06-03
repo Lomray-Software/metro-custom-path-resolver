@@ -1,5 +1,5 @@
 # Metro Custom Path Resolver
-
+```
 .  
 └── src  
     ├── assets  
@@ -12,7 +12,7 @@
     │   └── components  
     │       └── sample-component.js  
     └── index.js  
-
+```
 Content index.js:
 ```js
 import image from 'assets/sample-icon.jpg';
