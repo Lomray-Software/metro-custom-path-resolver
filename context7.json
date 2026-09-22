@@ -1,0 +1,28 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "metro-custom-path-resolver",
+  "description": "Metro resolveRequest hook for overriding relative modules from a project-specific source tree.",
+  "branch": "master",
+  "folders": [],
+  "excludeFolders": [
+    "node_modules",
+    "src",
+    "lib",
+    "example",
+    "__tests__",
+    "__mocks__",
+    "__helpers__",
+    "scripts",
+    ".github"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "rules": [
+    "Version 1.0.0 intercepts only ./ requests outside excludePath and requires a resolvable metro-resolver.",
+    "No current Metro compatibility is established. This is not a webpack plugin and does not chain another custom resolver."
+  ]
+}
